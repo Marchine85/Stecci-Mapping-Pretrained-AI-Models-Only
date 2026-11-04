@@ -1,0 +1,19 @@
+name: stecci-mapping-pretrained
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - opencv
+  - matplotlib
+  - pillow
+  - scipy
+  - scikit-image
+  - pip:
+      - torch torchvision --index-url https://download.pytorch.org/whl/cu126
+      - transformers
+      - segment-anything
+      - open-clip-torch

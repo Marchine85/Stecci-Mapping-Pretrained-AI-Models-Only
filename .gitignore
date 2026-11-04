@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.venv
+
+# Model checkpoints / weights
+sam_model_ckpts/
+model_ckpts/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# editor / local files
+.vscode/
+.DS_Store
+
+# optional local outputs
+*.log
