@@ -32,7 +32,7 @@ from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
 
 # ── Config ────────────────────────────────────────────────────────────────────
 IMAGE_PATH       = "stecci_1_raw.jpeg"
-SAM_CHECKPOINT   = r"D:\Machine_Learning\Stecci\App_v0\model_ckpts\sam_vit_b_01ec64.pth"
+SAM_CHECKPOINT   = r"sam_model_ckpts\\sam_vit_b_01ec64.pth"
 SAM_MODEL_TYPE   = "vit_b"              # "vit_h" | "vit_l" | "vit_b"
 CLIP_MODEL       = "ViT-B-32"           # open_clip model name
 CLIP_PRETRAINED  = "openai"             # pretrained weights tag

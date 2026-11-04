@@ -32,7 +32,7 @@ OUTPUT_PATH  = "output_grounding_dino_sam.png"
 DEVICE       = "cuda"     # change to "cuda" if available
 
 # SAM checkpoint
-SAM_CHECKPOINT = r"D:\Machine_Learning\Stecci\App_v0\model_ckpts\sam_vit_h_4b8939.pth"
+SAM_CHECKPOINT = r"sam_model_ckpts\sam_vit_h_4b8939.pth"
 SAM_MODEL_TYPE = "vit_h"   # "vit_h" | "vit_l" | "vit_b"
 
 # ── Prompts ───────────────────────────────────────────────────────────────────

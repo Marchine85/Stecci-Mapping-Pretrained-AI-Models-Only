@@ -23,7 +23,7 @@ from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
 
 # ── Config ────────────────────────────────────────────────────────────────────
 IMAGE_PATH      = "stecci_1_raw.jpeg"
-CHECKPOINT_PATH = r"D:\Machine_Learning\Stecci\App_v0\model_ckpts\sam_vit_h_4b8939.pth"  # change to vit_l / vit_b if needed
+CHECKPOINT_PATH = r"sam_model_ckpts\sam_vit_h_4b8939.pth"  # change to vit_l / vit_b if needed
 MODEL_TYPE      = "vit_h"                   # "vit_h" | "vit_l" | "vit_b"
 OUTPUT_PATH     = "output_sam_masks.png"
 
